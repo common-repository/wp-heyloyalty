@@ -1,0 +1,49 @@
+.someclass {
+    display:none;
+}
+.wp-container, .hl-container {
+    width:100%;
+    float: left;
+    margin:0px 20px 0px 0px;
+}
+.hl-container {
+    width:80%;
+    margin-top:10px;
+}
+
+.wp-container label {
+    min-width: 10%;
+    font-size:14px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+.wp-container .droppable {
+    border: 1px solid #404040;
+    height: 30px;
+    background-color: #656a6f;
+    padding: 5px;
+}
+
+.hl-container .draggable, .fields-container .field {
+    float:left;
+    border: 1px solid #0074a2;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0073aa;
+    margin: 10px 10px;
+    height: 40px;
+    width: 18%;
+    cursor: pointer;
+    text-align: center;
+}
+.ui-draggable-handle,.wp-container .draggable {
+    border: 1px solid #0074a2;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0073aa;
+    height: 30px;
+    text-align: center;
+}
+.form-table .notification {
+    border-left: 4px solid red;
+}
